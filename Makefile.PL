@@ -4,5 +4,5 @@ use ExtUtils::MakeMaker;
 WriteMakefile(
     'NAME'		=> 'Text::Rhyme',
     'VERSION_FROM'	=> 'Rhyme.pm', # finds $VERSION
-    'PREREQ_PM'		=> {Text::Soundex => 1.0}, # e.g., Module::Name => 1.1
+    'PREREQ_PM'		=> {Text::Soundex=>1.0}, # e.g., Module::Name => 1.1
 );

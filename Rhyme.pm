@@ -1,6 +1,6 @@
-package Text::Rhymes;
+package Text::Rhyme;
 use Text::Soundex;
-our $VERSION = 0.01;
+our $VERSION = 0.02;
 use strict;
 use warnings;
 
@@ -58,6 +58,10 @@ Any thoughts/suggestions/mods much appreciated.
 Word stress patterns could help to produce a better analysis, but we need a means of identifying syllables, and sadly I<Text::Syllable> isn't up to it at the date of writing.
 
 Any thoughts/suggestions/mods much appreciated....
+
+=head1 FUNCTION &test( \$word1, \$word2)
+
+Accepts two words and returns 0 if they rhyme, otherwise a positive integer, the smallness of which reflects closeness of the rhyme.
 
 =cut
 
